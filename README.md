@@ -7,7 +7,7 @@ http://en.wikipedia.org/wiki/Rock-paper-scissors
 
 * [`create-react-app`](https://github.com/facebook/create-react-app) to hit the ground running with a sensible build configuration
 * [`Jest`](https://facebook.github.io/jest/) to test components and logic
-* `Just enough CSS` for the simple UI
+* Just enough `CSS` for the simple UI
 
 ### What's not?
 
@@ -21,5 +21,6 @@ http://en.wikipedia.org/wiki/Rock-paper-scissors
 As this evolves towards something like [`Rock Paper Scissors Lizard Spock`](https://rpsls.net), additions may include:
 * Better use of HTML meta data for search engines, social media, and bookmarking on mobile OSs
 * [`sass`](https://sass-lang.com/) or [`stylus`](http://stylus-lang.com/) to help manage and auto-prefix rules
+* Automated CI and testing, [`travis`](https://travis-ci.org/) to start?
 * [`redux-observables`](https://github.com/redux-observable/redux-observable) to ease asynchronous state change
 * and more as we go along...
