@@ -1,7 +1,15 @@
 ## What's this?
 
-A simple game of rock, paper, scissors<br/>
-http://en.wikipedia.org/wiki/Rock-paper-scissors
+A quick implementation of Rock, Paper, Scissors using create-react-app and as little else as possible to [keep it simple](https://en.wikipedia.org/wiki/KISS_principle) and lean. Going forward, it'd be great to setup a CI and introduce CSS preprocessing to ease collaboration and keep styling [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+
+See app running at https://clarencedglee.github.io/rock-paper-scissors/
+
+To test:
+
+1. `git clone https://github.com/clarencedglee/rock-paper-scissors.git`
+2. `cd rock-paper-scissors`
+3. `npm install`
+4. `npm run test`
 
 ### What's here?
 
