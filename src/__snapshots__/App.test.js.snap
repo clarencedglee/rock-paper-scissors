@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders initial state 1`] = `
+<div
+  className="app"
+>
+  <h1
+    className={undefined}
+  >
+    rock
+    <span
+      className="outcome-display"
+    >
+      paper
+    </span>
+    scissors
+  </h1>
+  <span
+    className="outcome-display"
+  >
+    Pick Rock, Paper, or Scissors below.
+  </span>
+  <div
+    className="buttons"
+  >
+    <button
+      className="rock"
+      onClick={[Function]}
+    >
+      rock
+    </button>
+    <button
+      className="paper"
+      onClick={[Function]}
+    >
+      paper
+    </button>
+    <button
+      className="scissors"
+      onClick={[Function]}
+    >
+      scissors
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders lose state 1`] = `
+<div
+  className="app"
+>
+  <h1
+    className="lose"
+  >
+    rock
+    <span
+      className="outcome-display"
+    >
+      loses to
+    </span>
+    rock
+  </h1>
+  <span
+    className="outcome-display"
+  >
+    Computer wins...
+  </span>
+  <div
+    className="buttons"
+  >
+    <button
+      className="rock"
+      onClick={[Function]}
+    >
+      rock
+    </button>
+    <button
+      className="paper"
+      onClick={[Function]}
+    >
+      paper
+    </button>
+    <button
+      className="scissors"
+      onClick={[Function]}
+    >
+      scissors
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders tie state 1`] = `
+<div
+  className="app"
+>
+  <h1
+    className="tie"
+  >
+    paper
+    <span
+      className="outcome-display"
+    >
+      ties with
+    </span>
+    rock
+  </h1>
+  <span
+    className="outcome-display"
+  >
+    Tie
+  </span>
+  <div
+    className="buttons"
+  >
+    <button
+      className="rock"
+      onClick={[Function]}
+    >
+      rock
+    </button>
+    <button
+      className="paper"
+      onClick={[Function]}
+    >
+      paper
+    </button>
+    <button
+      className="scissors"
+      onClick={[Function]}
+    >
+      scissors
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders win state 1`] = `
+<div
+  className="app"
+>
+  <h1
+    className="win"
+  >
+    scissors
+    <span
+      className="outcome-display"
+    >
+      beats
+    </span>
+    rock
+  </h1>
+  <span
+    className="outcome-display"
+  >
+    You win!
+  </span>
+  <div
+    className="buttons"
+  >
+    <button
+      className="rock"
+      onClick={[Function]}
+    >
+      rock
+    </button>
+    <button
+      className="paper"
+      onClick={[Function]}
+    >
+      paper
+    </button>
+    <button
+      className="scissors"
+      onClick={[Function]}
+    >
+      scissors
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shows default message 1`] = `
+<span
+  className="outcome-display"
+>
+  default
+</span>
+`;
+
+exports[`shows lose message 1`] = `
+<span
+  className="outcome-display"
+>
+  lose
+</span>
+`;
+
+exports[`shows tie message 1`] = `
+<span
+  className="outcome-display"
+>
+  tie
+</span>
+`;
+
+exports[`shows win message 1`] = `
+<span
+  className="outcome-display"
+>
+  c
+</span>
+`;
